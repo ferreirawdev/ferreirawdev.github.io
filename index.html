@@ -27,20 +27,26 @@
 
         #name {
             font-family: 'Titillium Web', sans-serif;
+            font-size: 2em;
+            text-align: center;
         }
 
-        /* .about {
-            
-        } */
+        .internal-links {
+            text-align: center;
+        }
+
+        #photo {
+            border-radius: 200px;
+        }
 
         </style>
     </head>
 
     <body>
 
-        <h5 id="top">
-            <a href="#sobre"> Sobre</a> - <a href="#habilidades">Habilidades</a> - <a href="#blogs">Sugestões</a>
-        </h5>
+        <h6 id="top" class="internal-links">
+            <a href="#sobre"> Sobre</a> <a href="#habilidades">Habilidades</a> <a href="#blogs">Sugestões</a>
+        </h6>
 
         <h1 id="name">
             Wellington Antunes Ferreira
@@ -48,9 +54,9 @@
 
         <img id="photo" src="./images/IMG_20211127_210814047.jpg" width="400px" alt="Foto de Wellington">
 
-        <h3 id="sobre">
+        <h4 id="sobre" class="">
             Sobre mim:
-        </h3>
+        </h4>
 
         <p class="about"><em>
             <i>Brasileiro, 28 anos, nascido na cidade de <b>Petrópolis/RJ</b>, me mudei para <b>Curitiba/PR em 2018</b> para cursar <b>Engenharia Mecânica</b> na <b><a target="_blank" href="http://www.utfpr.edu.br/">UTFPR</a></b></i>.
@@ -108,11 +114,10 @@
             </li>
         </ul>
 
-        <h6><em>
-            2022. Wellington Antunes Ferreira.
-        </em></h6>
-
-        <a href="#top">voltar ao topo</a> <a href="#photo">foto</a>
+        <h6 class="internal-links">
+            <i>2022. Wellington Antunes Ferreira.</i><br><br>
+            <a href="#top">voltar ao topo</a> <a href="#photo">foto</a>
+        </h6>
 
     </body>
 
