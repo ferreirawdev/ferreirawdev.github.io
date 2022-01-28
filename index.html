@@ -4,44 +4,89 @@
     <head>
         <meta charset="UTF-8">
         <title>
-            Portifólio | Wellington Ferreira
+            Portfólio | Wellington Ferreira
         </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+
+        <!-- Altere o estilo das tags que você usou para destacar algumas informações, como sua nacionalidade e a cidade/estado onde mora;
+        
+        Coloque tamanhos diferentes para os elementos da lista de habilidades que você criou. Lembre-se de usar classes para cada um dos elementos; -->
+
+        <style>
+
+            body {
+                font-family: 'Rajdhani', sans-serif;
+                background-color: #839389;
+                font-size: 20px;
+                color: #2D2324;
+                text-decoration: none;
+                text-align: justify;
+            }
+
+        #name {
+            font-family: 'Titillium Web', sans-serif;
+            font-size: 2em;
+            text-align: center;
+            color: black;
+        }
+
+        .internal-links {
+            text-align: center;
+        }
+
+        #photo {
+            border-radius: 200px;
+        }
+
+        .h4-style {
+            color: #415172;
+            font-size: 1.5em;
+        }
+
+        #learning {
+            font-size: 1.2em;
+        }
+
+        </style>
     </head>
 
     <body>
 
-        <h5 id="topo">
-            Navegar: <a href="#sobre"> Sobre</a> - <a href="#habilidades">Habilidades</a> - <a href="#blogs">Sugestões</a>
-        </h5>
+        <h6 id="top" class="internal-links">
+            <a href="#sobre"> Sobre</a> <a href="#habilidades">Habilidades</a> <a href="#blogs">Sugestões</a>
+        </h6>
 
-        <h1>
+        <h1 id="name">
             Wellington Antunes Ferreira
         </h1>
 
-        <img id="foto" src="./images/IMG_20211127_210814047.jpg" width="400px" alt="Foto de Wellington">
+        <img id="photo" src="./images/IMG_20211127_210814047.jpg" width="400px" alt="Foto de Wellington">
 
-        <h3 id="sobre">
+        <h4 id="sobre" class="h4-style">
             Sobre mim:
-        </h3>
+        </h4>
 
-        <p><em>
-            <i>Brasileiro, 28 anos, nascido na cidade de <b>Petrópolis/RJ</b>, me mudei para <b>Curitiba/PR em 2018</b> para cursar <b>Engenharia Mecânica na <a target="_blank" href="http://www.utfpr.edu.br/">UTFPR</a></b></i>.
+        <p class="about"><em>
+            <i>Brasileiro, 28 anos, nascido na cidade de <b>Petrópolis/RJ</b>, me mudei para <b>Curitiba/PR em 2018</b> para cursar <b>Engenharia Mecânica</b> na <b><a target="_blank" href="http://www.utfpr.edu.br/">UTFPR</a></b></i>.
         </em></p>
 
-        <p>
-            Desde o primeiro semestre no curso, descobri que programação é mais a minha área do que Mecânica.<br>Hoje continuo no curso de Engenharia e estudo <strong>Desenvolvimento Web</strong> na <a target="_blank" href="https://www.betrybe.com/">Trybe</a>
+        <p class="about">
+            Desde o primeiro semestre no curso, descobri que programação é mais a minha área do que Mecânica.<br>Hoje continuo no curso de Engenharia e estudo <strong>Desenvolvimento Web</strong> na <b><a target="_blank" href="https://www.betrybe.com/">Trybe</a></b>
         </p>
 
-        <p>
-            Gosto de computadores, ler, ouvir Rock e suas variações, video games, animes, séries e filmes.
+        <p class="about">
+            Gosto de computadores, ler, ouvir música (principalmente rock), video games, animes, séries e filmes.
         </p>
 
-        <h4 id="habilidades">
+        <h4 id="habilidades" class="h4-style">
             Habilidades:
         </h4>
 
         <ul>
-            <li>
+            <li id="learning">
                 <strong>Aprendo rápido</strong>
             </li>
             <li>
@@ -58,7 +103,7 @@
             </li>
         </ul>
 
-        <h4 id="blogs">
+        <h4 id="blogs" class="h4-style">
             Blogs/Canais do YouTube que eu recomendo:
         </h4>
 
@@ -76,15 +121,14 @@
                 <a target="_blank" href="https://manualdohomemmoderno.com.br/">Manual do Homem Moderno</a>
             </li>
             <li>
-                <a target="_blank" href="https://gabixavier.com.br/sobre/">Gabi Xavier</a>
+                <a target="_blank" href="https://gabixavier.com.br/">Gabi Xavier</a>
             </li>
         </ul>
 
-        <h6><em>
-            2022. Wellington Antunes Ferreira.
-        </em></h6>
-
-        <a href="#topo">voltar ao topo</a> <a href="#foto">foto</a>
+        <h6 class="internal-links">
+            <i>2022. Wellington Antunes Ferreira.</i><br><br>
+            <a href="#top">voltar ao topo</a> <a href="#photo">foto</a>
+        </h6>
 
     </body>
 
